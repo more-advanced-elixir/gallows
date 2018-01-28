@@ -1,3 +1,3 @@
-defmodule SocketGallows.Web.LayoutViewTest do
-  use SocketGallows.Web.ConnCase, async: true
+defmodule Gallows.Web.LayoutViewTest do
+  use Gallows.Web.ConnCase, async: true
 end

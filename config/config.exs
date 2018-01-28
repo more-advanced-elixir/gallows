@@ -6,11 +6,11 @@
 use Mix.Config
 
 # Configures the endpoint
-config :socket_gallows, SocketGallows.Web.Endpoint,
+config :gallows, Gallows.Web.Endpoint,
   url: [host: "localhost"],
   secret_key_base: "KtigD/dCrLpdyF5HkAh7EKa09alQBredg9TAEktNCJe/qv5ZzyEo1Noj7cxivcRp",
-  render_errors: [view: SocketGallows.Web.ErrorView, accepts: ~w(html json)],
-  pubsub: [name: SocketGallows.PubSub,
+  render_errors: [view: Gallows.Web.ErrorView, accepts: ~w(html json)],
+  pubsub: [name: Gallows.PubSub,
            adapter: Phoenix.PubSub.PG2]
 
 # Configures Elixir's Logger

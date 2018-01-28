@@ -1,4 +1,4 @@
-# SocketGallows
+# Gallows
 
 To start your Phoenix server:
 
