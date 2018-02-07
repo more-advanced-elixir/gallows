@@ -37,7 +37,11 @@ defmodule Gallows.Mixfile do
       {:gettext, "~> 0.11"},
       {:cowboy, "~> 1.0"},
 
-      {:hangman, [ github: "more-advanced-elixir/hangman" ]},
+      {
+        :hangman,
+        github: "more-advanced-elixir/hangman",
+        ref:    "001-updated-for-elixir-16"
+      },
     ]
   end
 end
